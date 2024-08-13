@@ -8,7 +8,7 @@
 ## Setup Instructions
 
 ### Backend
-1. Clone the backend repository (if separate).
+1. Clone the repository
 2. Navigate to the backend directory.
 3. Install dependencies:
     ```bash
