@@ -39,8 +39,8 @@ const App = () => {
     <div className="App">
       <h1>User Management</h1>
       <div style={{display:"flex", alignItems:"center", justifyContent:"flex-end"}}>
-      <button className="btn"onClick={() => setShowSignUp(true)}>SIGN UP</button>
-      <button className="btn" disabled={selectedUsers.length === 0}>
+      <button style={{backgroundColor:"blue",color:"white"}}className="btn"onClick={() => setShowSignUp(true)}>SIGN UP</button>
+      <button style={{backgroundColor:"blue",color:"white"}}className="btn" disabled={selectedUsers.length === 0}>
         <CSVLink data={handleExport()} filename="users.csv">EXPORT</CSVLink>
       </button>
       </div>
